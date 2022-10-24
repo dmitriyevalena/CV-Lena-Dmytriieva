@@ -1,0 +1,45 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #FFF;
+    margin: 40px auto;
+}
+.mainContentSection{
+    display: flex;
+    flex-direction: column;
+}
+.aboutMeProfession{
+    font-size: 14px;
+    font-weight: 700;
+    color:#000;
+}
+.aboutMeSection{
+    background: yellow;
+    /* отступы за пределами div*/
+    /* margin-top: 20px;
+    margin-right: 30px;
+    margin: 50px 100px  200px 300px; */
+    /* отступы внутри div */
+    /* padding-left: 50px; */
+    /* размещение элементов внутри в строку или колонку */
+    /* display: flex;
+    flex-direction: row; */
+}
+.myProjectsSection{
+    background: rgb(84, 190, 252) ;
+}
+.myExperience{
+    background: rgb(109, 84, 252) ;
+}
+.myEducation{
+    background: yellowgreen;
+
+}
+.sidebarSection{
+    background: #1E2939;
+}

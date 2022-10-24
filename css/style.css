@@ -1,0 +1,181 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');  */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #FFF;
+    margin: 40px auto;
+}
+/* Main Content Section */
+.mainContentSection{
+    padding: 100px 90px;
+}
+.mainContentTitle{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color:#000;
+    margin-bottom: 10px;
+}
+/* About Me Section */
+.aboutMeSection{
+    margin-bottom: 40px;
+}
+.aboutMeProfession{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color:#000;
+    margin-bottom: 20px;
+}
+.aboutMeName{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color:#000;
+    margin-bottom: 25px;
+}
+.aboutMeDescription{
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+/* My Projects Section */
+.myProjectsSection{
+    margin-bottom: 50px;
+}
+.myProjectsList{
+    padding: 0 0 0 17px;
+}
+.myProjectsItem{
+    color: #000;
+    font-weight: bold;
+}
+.myProjectsText, .myProjectsLink{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+}
+.myProjectsLink{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    }
+.myProjectsBracket{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+
+/* My Experience Section */
+.myExperienceCompanyBlock{
+    margin: 0 0 18px 0;
+}
+.myExperiencePosition{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+.myExperienceCompany{
+    color: #FB6D3A;
+}
+.myExperiencePeriod{
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #A8A8A8;
+margin: 0 0 10px 0;
+}
+.myExperiencePeriodDivider{
+    color: #000;
+}
+.myExperienceDuties{
+    padding: 0 0 0 18px;
+}
+.myExperienceDuties li{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+/* Education Section */
+.educationText{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+.educationUnivercity{
+    color: #FB6D3A;
+}
+/* sidebar Section */
+.sidebarSection{
+    background: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+}
+.photo{
+    width: 370px;
+}
+.contactsSection, .techSkillsSection, .softSkillsSection{
+    margin: 50px 0 0 40px;
+}
+.sidebarTitle{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+/* Contacts Section */
+.contactsSectionType{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFF;
+    margin-right: 5px;
+}
+.contactsSectionLink{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFF;
+    opacity: 0.5;    
+}
+/* Tech and soft skills Section */
+.sidebarList{
+    padding-left: 17px;
+}
+.sidebarList li{
+    color: #FB6D3A;
+}
+.sidebarList li span{
+    color: white;
+}
