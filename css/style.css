@@ -12,7 +12,7 @@ body {
 }
 /* Main Content Section */
 .mainContentSection{
-    padding: 100px 90px;
+    padding: 50px 50px;
 }
 .mainContentTitle{
     font-style: normal;
@@ -29,7 +29,7 @@ body {
 .aboutMeProfession{
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 17px;
     color:#000;
     margin-bottom: 20px;
@@ -132,17 +132,27 @@ margin: 0 0 10px 0;
 .educationUnivercity{
     color: #FB6D3A;
 }
+
+.educationDuties {
+    /* padding: 0 0 0 18px; */
+    margin: 0 0 10px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
 /* sidebar Section */
 .sidebarSection{
     background: #1E2939;
-    width: 370px;
+    width: 800px;
     padding: 40px 0;
 }
 .photo{
     width: 370px;
 }
 .contactsSection, .techSkillsSection, .softSkillsSection{
-    margin: 50px 0 0 40px;
+    margin: 100px 0 0 40px;
 }
 .sidebarTitle{
     font-style: normal;
@@ -163,10 +173,10 @@ margin: 0 0 10px 0;
 }
 .contactsSectionLink{
     font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 12px;
     line-height: 24px;
-    color: #FFF;
+    color: #FB6D3A;
     opacity: 0.5;    
 }
 /* Tech and soft skills Section */
